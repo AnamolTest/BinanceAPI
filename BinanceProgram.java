@@ -9,8 +9,8 @@ public class BinanceOrderBook {
     private static final OkHttpClient httpClient = new OkHttpClient();
 
     public static void main(String[] args) {
-        String btcUsdtOrderBookUrl = API_BASE_URL + "/depth?symbol=BTCUSDT&limit=10";
-        String ethUsdtOrderBookUrl = API_BASE_URL + "/depth?symbol=ETHUSDT&limit=10";
+        String btcUsdtOrderBookUrl = API_BASE_URL + "/depth?symbol=BTCUSDT&limit=50";
+        String ethUsdtOrderBookUrl = API_BASE_URL + "/depth?symbol=ETHUSDT&limit=50";
 
         try {
             // Fetch order book for BTC/USDT
